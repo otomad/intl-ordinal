@@ -1,0 +1,31 @@
+{
+	"name": "intl-ordinal",
+	"version": "1.0.0",
+	"description": "Internationalization (i18n) to get the ordinal numbers",
+	"main": "index.ts",
+	"author": "lunate",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"clear": "rimraf dist",
+		"build": "npm run clear && tsc --build"
+	},
+	"keywords": [
+		"ordinal",
+		"number",
+		"intl",
+		"i18n",
+		"l10n",
+		"g11n",
+		"internationalization",
+		"localization",
+		"globalization",
+		"formatting",
+		"numbers"
+	],
+	"devDependencies": {
+		"rimraf": "^6.0.1",
+		"typescript": "^5.7.2"
+	}
+}
